@@ -1,0 +1,51 @@
+Informe o numero de processo:
+10
+Informe qual algoritmo de eleicao utilizar - (a)nel ou (b)ully:
+b
+Informe o PID do processo que inicia eleicao:
+5
+
+5 -> 6: ELECTION
+5 -> 7: ELECTION
+5 -> 8: ELECTION
+5 -> 9: ELECTION
+5 -> 10: ELECTION
+6 -> 5: OK
+7 -> 5: OK
+8 -> 5: OK
+9 -> 5: OK
+10 -> 5: OK
+---------------
+6 -> 7: ELECTION
+6 -> 8: ELECTION
+6 -> 9: ELECTION
+6 -> 10: ELECTION
+7 -> 6: OK
+8 -> 6: OK
+9 -> 6: OK
+10 -> 6: OK
+---------------
+7 -> 8: ELECTION
+7 -> 9: ELECTION
+7 -> 10: ELECTION
+8 -> 7: OK
+9 -> 7: OK
+10 -> 7: OK
+---------------
+8 -> 9: ELECTION
+8 -> 10: ELECTION
+9 -> 8: OK
+10 -> 8: OK
+---------------
+9 -> 10: ELECTION
+10 -> 9: OK
+---------------
+10 -> 1: COORDENADOR
+10 -> 2: COORDENADOR
+10 -> 3: COORDENADOR
+10 -> 4: COORDENADOR
+10 -> 5: COORDENADOR
+10 -> 6: COORDENADOR
+10 -> 7: COORDENADOR
+10 -> 8: COORDENADOR
+10 -> 9: COORDENADOR
